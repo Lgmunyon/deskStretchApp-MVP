@@ -1,0 +1,73 @@
+body{
+    font-family: 'Gentium Book Plus', serif;
+    font-family: 'Noto Serif', serif;
+}
+
+/* Stylings */
+
+html {
+    font-size: 62.5%;
+}
+.body-image{
+    display: none;
+}
+h3, button, a {
+    font-size: 1rem;
+}
+
+h2 {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    font-size: 400%;
+    margin-top: -25%;
+    z-index: 5;
+}
+
+body{
+    color: rgb(247, 240, 240);
+    background: #8ad3b8;
+    /* margin: 100px 250px; */
+    height: 100%;
+    width: 99%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.main{
+    text-align: center;
+    /* align-content: center; */
+    margin: 4% auto;
+    width: 57%;
+    height: 65%;
+    background: rgba(12, 134, 85, 1);
+    border-radius: 20px;
+    border: 10px solid rgba(12, 134, 85, .4);
+    box-shadow: 0 0 50px rgba(12, 134, 85, 1);
+    /* min-height: 450px; */
+    min-width: 600px;
+}
+
+h1{
+    margin: 0;
+    padding: 20px 0 0 0;
+    font-size: 500%;
+}
+
+h6{
+    margin: 0;
+    padding: 0 0 20px 0;
+    font-size: 20px;
+}
+/* Button */
+
+.button{
+    color: black;
+    background: #fe483b;
+    border-radius: 10px;
+    border: 2px solid #fe483b; 
+    text-decoration: none;
+    font-size: 30px;
+    margin: 10px;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch a Stretch</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen"/>
+    <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Noto+Serif&display=swap" rel="stylesheet">  
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+</head>
+<body>
+    <main class="main">
+        
+            <header>
+                <!-- <img id = "menu" onclick = "dropdownFunction()" class="body-image" src="body.ico" alt ="body" > -->
+                <a onclick="myFunction()" title="Body Parts" class="body-image body-ico"><img id="menu" class="body-image" src = "body.ico"> </a>
+                <h1>Fetch a Stretch</h1>
+            </header>
+            <section>
+                <h6>Welcome to moving better!</h6>
+                <section class="cardDeck">
+                    <section class="card-directions">
+                        <h3>Stretch: Lorem ipsum dolor sit.</h3>
+                        <h3>Explanation: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, autem? Iusto itaque quae perspiciatis illo nostrum aspernatur voluptatum, libero sit provident accusantium explicabo est harum omnis quod? Amet, maiores inventore.</h3>
+                    </section>
+                    <section class="card-picture">
+                        <h3>Picture:</h3>
+                    </section>
+                    <section class="button-timer">
+                        <div id="circle" class="circle-ani"></div>
+                        <h2 id="sec">30</h2>
+                        <div class="start-timer-div">
+                            <button onclick="start()" id = 'start' class = "start-timer">Start Timer</button>
+                        </div>
+                    </section>
+                </section>
+                
+                <span id = "dropdownClick" class="dropdown">
+                        <ul id = "myDropdown" class="dropdown-list">
+                            <li class="neck"><a href="#">Neck</a></li>
+                            <li class="shoulders"><a href="#">Shoulders</a></li>
+                            <li class="hands"><a href="#">Hands</a></li>
+                            <li class="back"><a href="#">Low Back</a></li>
+                            <li class="hips"><a href="#">Hips</a></li>
+                            <li class="legs"><a href="#">Legs</a></li>
+                        </ul>
+                </span>
+            </section>
+            
+        
+    </main>
+
+    <script type="text/javascript" src="js/main.js"></script>
+    
+</body>
+</html>
