@@ -62,6 +62,9 @@ h6{
     font-size: 20px;
 }
 /* Button */
+button:hover {
+    cursor: pointer;
+}
 
 .button{
     color: black;

@@ -46,6 +46,11 @@ bcrypt, connect-mongo, dotenv, ejs, express, express-flash, express-session, mon
 
  # CHANGES
 
- - 9.25.22: Changes two profiles to stretches in auth.js controller. 
+- 9.25.22: Changes two profiles to stretches in auth.js controller. 
             Commented out two profiles in auth.js controller. 
             Making progress :)
+
+# Upcoming features
+ - Ability to favorite
+ - Ability to journal 
+ - Ability to set reminders 

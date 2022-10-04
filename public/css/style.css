@@ -78,9 +78,13 @@ section + section{
 button{
     background: #fe483b;
     /* border-radius: 10px; */
-    border: 2px solid #fe483b; 
-    
+    border: 2px solid #fe483b;  
 }
+
+button:hover {
+    cursor: pointer;
+}
+
 
 .start-timer-div{
     /* margin: 140px 0 0 0; */
@@ -244,6 +248,8 @@ h3{
         margin: auto;
         outline: none;
     }
+
+    
 
     /* .dropdown-list, li, a{
         display: none;
